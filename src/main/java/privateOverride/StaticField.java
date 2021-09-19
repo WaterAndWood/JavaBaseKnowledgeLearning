@@ -32,7 +32,7 @@ class SubStaticField extends StaticField {
 /**
  * output:
  * --Sub对象转型为Super引用时，任何域的访问操作由编译器解析，不是多态的。Super.field和Sub.field分配了不同的存储空间。Sub实际上包含了两个称为filed
- * 的域，它自己的和它从Super处得到。在引用Sub中的field时为自己的默认域，并非Sup的field域。为了得到Super。field，显式指明super.field
+ * 的域，它自己的和它从Super处得到。在引用Sub中的field时为自己的默认域，并非Sup的field域。为了得到Super.field，显式指明super.field
  * sup.field = 0, sup.getField() = 1
  * sub.field = 1, sub.getField() = 1, sub.getSuperField() = 0
  */
