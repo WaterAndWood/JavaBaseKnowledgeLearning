@@ -9,8 +9,9 @@ public class TestParcel4 {
         System.out.println(contents.value());
         Destination destination = parcel4.destination("Hangzhou");
         System.out.println(destination.readLabel());
-        // PDestination可以访问，但构造方法是private，无法调用
+        // PDestination名字可以访问，但构造方法是private，无法调用
         // Parcel4.PDestination pDestination = parcel4.new PDestination("Beijing");
+        // PDestination的可以访问的构造方法，Parcel4.PDestination名字可以直接访问
         Parcel4.PDestination pDestination = parcel4.new PDestination("Harbin", "10月1日");
         System.out.println(pDestination.readLabel());
         // 无法访问private PContents
