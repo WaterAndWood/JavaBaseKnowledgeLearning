@@ -25,4 +25,5 @@ public class Parcel7 {
 /**
  * output:
  * 12
+ * contents()方法将返回值的生成和返回值定义结合
  */

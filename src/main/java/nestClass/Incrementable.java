@@ -1,2 +1,5 @@
-package nestClass;public interface Incrementable {
+package nestClass;
+
+public interface Incrementable {
+    void increment();
 }
