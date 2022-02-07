@@ -21,7 +21,7 @@ public class ParameterizedArrayType {
 
         List<String>[] ls;
         List[] la = new List[10];
-        ls = (List<String>[]) la; // unchecked warning
+        ls = (List<String>[]) la; // unchecked warninga
 
     }
 }
